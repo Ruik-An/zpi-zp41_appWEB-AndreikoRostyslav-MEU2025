@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     
     }
+
+  
+  
     table th,td{
         border: 1px solid black;
         border-collapse: collapse;
@@ -21,6 +24,11 @@
     }
         </style>
 <body>
+      
+
+   
+    
+    
     <div style="margin:10px"> 
  
         <img src="\5.png" style="height: 60px;width: 60px;" align="left" usemap="#wmp1">
@@ -50,7 +58,7 @@
             <input type="text" name="login">
             <br>
         Password:
-            <input type="text" name=""Password"><br>
+            <input type="text" name="Password"><br>
             
             <input type="image" src="/2.png" value="Send" style="width: 50px;height: 50px;" usemap="#wmp5"><br>
                    
@@ -60,45 +68,45 @@
     Напої та смаколики !
 </h1>
 
-<table id="tbl" align="left" >
+<table id="tbl" align="left" " >
     <tr>
       <th>Меню</th>
       <th >Вартість за одиницю</th>
     </tr>
     <tr>
-      <td>Крем-Сода</td>
-      <td> 18.77 грн</td>
-      
+      <td id="CreamSoda"  >Крем-Сода</td> 
+      <td> 18.77 грн   <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn1" onclick="order(this.id)" >ADD</button></td>
+     
     </tr>
   
 <tr>
     <td>Кока-Кола</td>
-    <td>15 грн</td></td>
+    <td>15 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn2" onclick="order()">ADD</button></td></td></td>
 </tr>
 <tr>
     <td>Пепсі-Кола</td>
-    <td>15 грн</td></td>
+    <td>15 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn3" onclick="order()">ADD</button></td></td></td></td></td>
 </tr>
 <tr>
     <td>Тархун</td>
-    <td>25 грн</td></td>
+    <td>25 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn4" onclick="order()">ADD</button></td></td></td></td></td>
 </tr>
 <tr>
     <td>Дюшес</td>
-    <td>35 грн</td></td>
+    <td>35 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn5" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Чай</td>
-    <td>5 грн</td></td>
+    <td>5 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn6" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Кава</td>
-    <td>15.45 грн</td></td>
+    <td>15.45 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn7" onclick="order()">ADD</button></td></td>
 </tr>
 </table>
   
 
-<table id="tb2" align="right">
+<table id="tb2" align="right" onclick="order()">
     <tr>
       <th>Меню</th>
       <th >Вартість за одиницю</th>
@@ -106,51 +114,51 @@
     </tr>
     <tr>
       <td>Пиріжок з горохом</td>
-      <td> 18.77 грн</td>
+      <td> 18.77 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn8" onclick="order()">ADD</button></td>
       
     </tr>
   
 <tr>
     <td>Пиріжок з капустою</td>
-    <td>15 грн</td></td>
+    <td>15 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn9" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Пиріжок з лівером</td>
-    <td>15 грн</td></td>
+    <td>15 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn10" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Пиріжок з секретом</td>
-    <td>76.33 грн</td></td>
+    <td>76.33 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn11" onclick="order()">ADD</button></td></td>
 </tr>
 
 
 <tr>
     <td>Сосиска в тісті </td>
-    <td>25 грн</td></td>
+    <td>25 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn12" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Біляш</td>
-    <td>35 грн</td></td>
+    <td>35 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn13" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Чебурек</td>
-    <td>56.88 грн</td></td>
+    <td>56.88 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn14" onclick="order()">ADD</button></td></td>
 </tr>
 <tr>
     <td>Булока з маком</td>
-    <td>15.45 грн</td></td>
+    <td>15.45 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn15" onclick="order()">ADD</button></td></td>
 </tr>
 <td></td>
-<td >99.99 грн</td>
+<td >99.99 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn16" onclick="order()">ADD</button></td>
 <td style="color: green;">Зупа грибна</td>
 <tr>
     <td></td>
-    <td>50 грн</td>
+    <td>50 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn17" onclick="order()">ADD</button></td>
     <td style="color: green;">Борщ</td>
     <tr>
 
         <td></td>
-        <td>35 грн</td>
+        <td>35 грн <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn18" onclick="order()">ADD</button></td>
         <td style="color: green;">Бограч</td>
         <tr>
 
@@ -163,5 +171,20 @@
 <center>
 <img src="\tr.gif" style="height: 300px;width: 300px;justify-content: center;align-items: center; "  >
 </center>
+
+
+
+<script>
+   function order( i)
+    {
+var a=localStorage.getItem("gowno","pib");
+
+
+}
+      
+</script>
+
+
+
 </body>
 </html>
