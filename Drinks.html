@@ -74,8 +74,8 @@
       <th >Вартість за одиницю</th>
     </tr>
     <tr>
-      <td id="CreamSoda"  >Крем-Сода</td> 
-      <td> 18.77 грн   <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn1" onclick="order(this.id)" >ADD</button></td>
+      <td id="d1"  >Крем-Сода</td> 
+      <td> 18.77 грн   <button style="height: 20px;width: 90px;" value="add" type="submit" id="btn1" onclick="order(document.getElementById('d1').outerText)" >ADD</button></td>
      
     </tr>
   
@@ -175,13 +175,15 @@
 
 
 <script>
+    
    function order( i)
     {
-var a=localStorage.getItem("gowno","pib");
-
+  
 
 }
-      
+   
+
+
 </script>
 
 
